@@ -20,6 +20,8 @@ async function connectToMongo() {
     }
 }
 
+// console.log();
+
 async function createCollections(db) {
     try {
         await db.createCollection('Users');
