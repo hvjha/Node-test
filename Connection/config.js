@@ -42,19 +42,3 @@ module.exports = {
 };
 
 
-// ==========Updated Code==========
-
-// const {MongoClient} = require('mongodb');
-// const md5 = require('md5');
-
-// const url = 'mongodb://localhost:27017';
-// const client = new MongoClient(url);
-// const dbName = 'Node'
-// async function connectToMongo(){
-//     await client.connect();
-//     console.log("database is connected to MongoDB")
-//     const db = client.db(dbName);
-//     return db;
-// }
-
-// module.exports = connectToMongo;
